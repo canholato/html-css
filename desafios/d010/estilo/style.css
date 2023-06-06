@@ -39,30 +39,30 @@ header {
     padding-top: 40px;
 }
 header > h1 {
-    color: white;
+    color: white(242, 20, 20);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    text-shadow: 2px 2px 0px white(0, 0, 0, 0.267);
 
 }
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    color: white;
+    color: white(242, 93%, 45%);
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+    text-shadow: 2px 2px 0px white(0, 0, 0, 0);
 
 }
 nav {
     background-color: var(--cor5);
     padding: 10px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.192);
+    box-shadow: 0px 7px 7px black(234, 231, 231, 0.192);
 }
 nav > a {
     color: var(--cor1);
@@ -81,7 +81,7 @@ main {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(109, 233, 155);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
